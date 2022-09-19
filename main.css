@@ -1,0 +1,71 @@
+.toPersonal {
+    margin: 30px 50px 0 0;
+    float: right;
+}
+
+.main, .shop {
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 20px 0 25px 50px;
+    width: 600px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    box-shadow: 1px 2px 4px rgba(16, 110, 163, 0.25);
+    background-color: white;
+}
+
+.productsList {
+    max-height: 330px;
+    overflow-y: scroll;
+    margin-right: 300px;
+}
+
+.productsList::-webkit-scrollbar-track {
+    border-radius: 5px;
+    padding: 2px 0;
+    background-color: rgba(0,0,0,.1);
+  }
+  
+  .productsList::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  .productsList::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    box-shadow: inset 0 0 6px rgba(0,0,0,.1);
+    background-color: #cccccc;
+    border: 1px solid rgba(0,0,0,.1);
+  }
+
+.main h2, h3 {
+    margin: 15px 0;
+}
+
+.one_input button {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    width: 120px;
+}
+
+.one_input input {
+    border-radius: 0 5px 5px 0;
+    border-left: none;
+    width: 200px;
+}
+
+.many_input button {
+    border-radius: 5px;
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+.many_input input {
+    border-radius: 5px;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+.productsList li {
+    list-style: none; 
+}

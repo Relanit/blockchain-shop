@@ -1,0 +1,60 @@
+.login {
+    margin: auto;
+    width: 400px;
+    margin-top: 25vh;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    box-shadow: 1px 2px 4px rgba(16, 110, 163, 0.25);
+    overflow: hidden;
+    background-color: white;
+}
+
+.login__tabs {
+    height: 20px;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    color: rgba(0, 0, 0, 0.85);
+    width: 100%;
+    max-width: 200px;
+    padding: 5px 0px 5px 0px;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;   
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    -khtml-user-select: none;
+}
+
+.login__tabs__signup, .login__tabs__login  {
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+.login__tabs__signup {
+    margin-right: 35px;
+}
+
+.login form  {
+    height: 100%;
+    padding-top: 25px;
+    text-align: center;
+}
+
+.login input {
+    width: 350px
+}
+
+.checked {
+    color: #ed4500;
+    border-bottom: 3px solid #ed4500;
+}
+
+.login button {
+    width: 350px;
+}
+
